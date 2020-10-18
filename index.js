@@ -9,3 +9,4 @@ const server = new GraphQLServer({
 server.start(() => console.log("server running port 4000"));
 
 //schema는 네가 사용자에게 보내거나 사용자로부터 받을 data에 대한 설명이다.
+//Mutation은 db 상태가 변할 때 사용
